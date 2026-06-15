@@ -1,7 +1,10 @@
 import { FaGithub } from "react-icons/fa"
 import { MdOutlineOpenInNew } from "react-icons/md"
 import Skill from "./Skill"
-
+import libLeg from "/src/assets/lib-leg.png"
+import cocomo from "/src/assets/cocomo.png"
+import ananda from "/src/assets/ananda.png"
+import popx from "/src/assets/popx.png"
 
 export default function Projects(){
 
@@ -21,28 +24,28 @@ export default function Projects(){
             gitHub = "https://github.com/Namit210/Library-Ledger"
             live = "https://library-ledger.vercel.app"
             techStack = {['React', 'Node.js', 'Express', 'MongoDB']}
-            imgsrc = "src/assets/lib-leg.png"
+            imgsrc = {libLeg}
             />
             <ProjectCard projectName="COCOMO Estimation Tool"
             desc="Calculate the effort, time, and cost of software projects using the COCOMO model"
             gitHub = "https://github.com/Namit210/COCOMO-estimation-tool"
             live = "https://cocomo-estimation-tool.vercel.app/"
             techStack = {['React', 'Flask']}
-            imgsrc = "src/assets/cocomo.png"
+            imgsrc = {cocomo}
             />
             <ProjectCard projectName="Ananda Bazaar"
             desc="Book your meal beforehand to prevent long queues in the canteen"
             gitHub = "https://github.com/Namit210/PreBookMeal"
             live = "https://anandabazaar.vercel.app/"
             techStack = {['React', 'Node.js', 'Express', 'MongoDB']}
-            imgsrc = "src/assets/ananda.png"
+            imgsrc = {ananda}
             />
             <ProjectCard projectName="PopX"
             desc="Mobile Friendly UI"
             gitHub = "https://github.com/Namit210/popx"
             live = "https://popx-phi-beige.vercel.app/"
             techStack = {['React']}
-            imgsrc = "src/assets/popx.png"
+            imgsrc = {popx}
             />
             
         </div>
