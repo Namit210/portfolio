@@ -11,7 +11,11 @@ export default function Ready(){
 
                     </div>
                     <div className="flex flex-row gap-5">
-                    <button className="px-5 py-2 bg-white text-black font-medium rounded shadow-md hover:bg-gray-100 transition duration-300">
+                    <button className="px-5 py-2 bg-white text-black font-medium rounded shadow-md hover:bg-gray-100 transition duration-300"
+                    onClick={()=>{
+                        window.open("https://wa.me/918077871623", "_blank");
+                    }}
+                    >
                         Say Hello
                     </button>
                     <button className="px-5 py-2 bg-transparent border border-white text-white font-medium rounded shadow-md hover:bg-white hover:text-black transition duration-300">
