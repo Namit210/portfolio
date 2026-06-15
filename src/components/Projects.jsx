@@ -2,6 +2,7 @@ import { FaGithub } from "react-icons/fa"
 import { MdOutlineOpenInNew } from "react-icons/md"
 import Skill from "./Skill"
 
+
 export default function Projects(){
 
     return (

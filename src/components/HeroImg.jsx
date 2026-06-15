@@ -1,3 +1,5 @@
+import pic from "/src/assets/myPic.png";
+
 export default function HeroImg(){
     
     return(
@@ -7,7 +9,7 @@ export default function HeroImg(){
 
         <div className=" mx-auto w-[300px] h-[300px] bg-gray-300 rounded-full flex items-center justify-center shadow-2xl">
 
-        <img src="../src/assets/myPic.png" 
+        <img src={pic} 
         className="rounded-full"
         />
         </div>
