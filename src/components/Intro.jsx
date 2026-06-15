@@ -7,26 +7,26 @@ export default function Intro(){
     };
 
     return(
-        <div className = "max-w-[500px] mx-auto flex flex-col justify-center items-start">
-        <div className="text-6xl font-[900]">
+        <div className = "max-w-[500px] mx-auto flex flex-col justify-center items-start px-4 sm:px-0">
+        <div className="text-3xl sm:text-5xl md:text-6xl font-[900]">
       <h1>Full-Stack</h1>
       <h1 className="text-[blue]">Web Developer</h1>
     </div>
-    <p className="text-lg font-[500] text-[gray] my-4">
+    <p className="text-sm sm:text-base md:text-lg font-[500] text-[gray] my-4">
       Hi, I am Amit Chausali. A fresh graduate from IIIT Kalyani specializing in building high-performance web applications using <span className='text-black underline'>MERN stack</span>.
     </p>
-    <div className="flex gap-4">
-    <button className="px-3 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-300"
+    <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+    <button className="px-3 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-300 text-sm sm:text-base"
     onClick={scrollToProjects}
     >View Projects
 
-        <MdKeyboardArrowRight className="inline-block ml-1 text-xl  " />
+        <MdKeyboardArrowRight className="inline-block ml-1 text-lg sm:text-xl" />
     </button>
     <button className="px-3 py-2 text-black 
     shadow-lg
     rounded hover:bg-black 
     hover:text-white
-    transition duration-300 flex"
+    transition duration-300 flex text-sm sm:text-base"
     onClick={()=>{
         window.open("https://drive.google.com/file/d/1CTphCNUrX_auUcBjvfzBXV_iRVi3PlHp/view?usp=sharing", "_blank");
         

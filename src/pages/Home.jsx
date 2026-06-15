@@ -6,7 +6,7 @@ import Projects from "../components/Projects";
 export default function Home(){
 
     return(
-        <div className="container mx-auto px-5 py-10">
+        <div className="container mx-auto px-4 sm:px-5 py-6 sm:py-10">
                 <Hero />
                 <Skills />
                 <Ready />

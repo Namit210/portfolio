@@ -56,7 +56,7 @@ export default function Projects(){
 const ProjectCard = ({projectName,techStack,gitHub,live, desc, imgsrc})=>{
 
     return (
-        <div className=" rounded-lg w-[300px] m-2 min-h-[300px] shadow-xl hover:shadow-2xl transition duration-300">
+        <div className=" rounded-lg w-full sm:w-[300px] m-2 min-h-[300px] shadow-xl hover:shadow-2xl transition duration-300">
             <div className="h-48 overflow-hidden">
                 <img src={imgsrc} alt={projectName + " screenshot"} className="w-full h-full object-cover" loading="lazy" />
             </div>

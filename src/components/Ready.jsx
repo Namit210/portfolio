@@ -2,23 +2,27 @@ export default function Ready(){
 
     return (
 
-        <div className="bg-blue-600 rounded-lg shadow-lg  shadow-blue-300 text-white flex flex-wrap flex-row gap-15 justify-center items-center p-10 my-10">
+        <div className="bg-blue-600 rounded-lg shadow-lg  shadow-blue-300 text-white flex flex-col sm:flex-row gap-6 justify-center items-center p-6 sm:p-10 my-10">
                     <div className="max-w-[700px]">
-                     <h1 className=" font-bold text-4xl m-5">Ready to build something amazing?</h1>
-                     <p className=" font-medium text-gray-200 m-5">
+                     <h1 className=" font-bold text-2xl sm:text-3xl md:text-4xl m-5">Ready to build something amazing?</h1>
+                     <p className=" font-medium text-gray-200 m-5 text-sm sm:text-base">
                         I am currently looking for full-time Full-Stack Developer roles where I can contribute to impactful products and grow with a world-class team.
                      </p>
 
                     </div>
-                    <div className="flex flex-row gap-5">
-                    <button className="px-5 py-2 bg-white text-black font-medium rounded shadow-md hover:bg-gray-100 transition duration-300"
+                    <div className="flex flex-col sm:flex-row gap-5 w-full sm:w-auto">
+                    <button className="px-5 py-2 bg-white text-black font-medium rounded shadow-md hover:bg-gray-100 transition duration-300 text-sm sm:text-base"
                     onClick={()=>{
                         window.open("https://wa.me/918077871623", "_blank");
                     }}
                     >
                         Say Hello
                     </button>
-                    <button className="px-5 py-2 bg-transparent border border-white text-white font-medium rounded shadow-md hover:bg-white hover:text-black transition duration-300">
+                    <button className="px-5 py-2 bg-transparent border border-white text-white font-medium rounded shadow-md hover:bg-white hover:text-black transition duration-300 text-sm sm:text-base"
+                    onClick={()=>{
+                        window.open("https://www.linkedin.com/in/amit-chausali-229914261/", "_blank")
+                    }}
+                    >
                         Learn More
                     </button>
                     </div>
