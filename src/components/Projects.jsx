@@ -20,28 +20,28 @@ export default function Projects(){
             gitHub = "https://github.com/Namit210/Library-Ledger"
             live = "https://library-ledger.vercel.app"
             techStack = {['React', 'Node.js', 'Express', 'MongoDB']}
-            imgsrc = "../../public/lib-leg.png"
+            imgsrc = "src/assets/lib-leg.png"
             />
             <ProjectCard projectName="COCOMO Estimation Tool"
             desc="Calculate the effort, time, and cost of software projects using the COCOMO model"
             gitHub = "https://github.com/Namit210/COCOMO-estimation-tool"
             live = "https://cocomo-estimation-tool.vercel.app/"
             techStack = {['React', 'Flask']}
-            imgsrc = "../../public/cocomo.png"
+            imgsrc = "src/assets/cocomo.png"
             />
             <ProjectCard projectName="Ananda Bazaar"
             desc="Book your meal beforehand to prevent long queues in the canteen"
             gitHub = "https://github.com/Namit210/PreBookMeal"
             live = "https://anandabazaar.vercel.app/"
             techStack = {['React', 'Node.js', 'Express', 'MongoDB']}
-            imgsrc = "../../public/ananda.png"
+            imgsrc = "src/assets/ananda.png"
             />
             <ProjectCard projectName="PopX"
             desc="Mobile Friendly UI"
             gitHub = "https://github.com/Namit210/popx"
             live = "https://popx-phi-beige.vercel.app/"
             techStack = {['React']}
-            imgsrc = "../../public/popx.png"
+            imgsrc = "src/assets/popx.png"
             />
             
         </div>

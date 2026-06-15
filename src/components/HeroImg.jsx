@@ -7,7 +7,7 @@ export default function HeroImg(){
 
         <div className=" mx-auto w-[300px] h-[300px] bg-gray-300 rounded-full flex items-center justify-center shadow-2xl">
 
-        <img src="../../public/myPic.png" 
+        <img src="../src/assets/myPic.png" 
         className="rounded-full"
         />
         </div>
