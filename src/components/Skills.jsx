@@ -15,6 +15,8 @@ export default function Skills(){
                     <Skill skill="Express" />
                     <Skill skill="MySQL" />
                     <Skill skill="JavaScript" />
+                    <Skill skill="jQuery" />
+                    <Skill skill="PHP" />
                     <Skill skill="Java" />
                     <Skill skill="Spring" />
                     <Skill skill="Python" />
