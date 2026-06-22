@@ -5,6 +5,7 @@ import libLeg from "/src/assets/lib-leg.png"
 import cocomo from "/src/assets/cocomo.png"
 import ananda from "/src/assets/ananda.png"
 import popx from "/src/assets/popx.png"
+import feeds from "/src/assets/feeds.png"
 
 export default function Projects(){
 
@@ -46,6 +47,13 @@ export default function Projects(){
             live = "https://popx-phi-beige.vercel.app/"
             techStack = {['React']}
             imgsrc = {popx}
+            />
+            <ProjectCard projectName="Feeds"
+            desc="a simple social post feature where users can create accounts, post text or images, view posts from others, like, and comment.(Inspired from TaskPlanet)"
+            gitHub = "https://github.com/Namit210/feeds"
+            live = "https://feeds-rosy-two.vercel.app/"
+            techStack = {['React','Express','MongoDB','Node.js']}
+            imgsrc = {feeds}
             />
             
         </div>
