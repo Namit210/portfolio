@@ -16,7 +16,7 @@ export default function Footer(){
                 <div className="text-center">
                     <h3 className="font-bold text-lg mb-3">Get In Touch</h3>
                     <div className="flex flex-col gap-2 text-sm">
-                        <a href="mailto:namitchausali@gmail.com" className="flex items-center justify-center gap-2 hover:text-blue-400 transition duration-300">
+                        <a href="mailto:namitcoder16@gmail.com" className="flex items-center justify-center gap-2 hover:text-blue-400 transition duration-300">
                             <FaEnvelope size={16} />
                             <span className="hidden sm:inline">namitcoder16@gmail.com</span>
                             <span className="sm:hidden">Email</span>
